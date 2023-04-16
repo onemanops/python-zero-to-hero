@@ -1,4 +1,5 @@
 # Regular Expressions
+# In these examples, we use the search(), findall(), sub(), and split() functions from re module
 
 import re
 

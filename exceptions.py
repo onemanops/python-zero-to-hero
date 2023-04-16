@@ -23,8 +23,8 @@ except ValueError:
 try:
     with open('myfile.txt', 'r') as f:
         contents = f.read()
-except FileNotFoundError:
-    print("File not found!")  # Output: "File not found!"
+except FileNotFoundError as e:
+    print(e, "File not found!")  # Output: "File not found!"
 
 # You can also specify multiple exceptions to catch
 try:
