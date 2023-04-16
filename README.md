@@ -1,1 +1,1 @@
-# python
+# learn python in one hour
